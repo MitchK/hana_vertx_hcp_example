@@ -1,20 +1,9 @@
 package com.github.mitchk.example;
 
-import java.util.Map;
-
 import javax.servlet.ServletConfig;
 import javax.servlet.http.HttpServlet;
 
-import io.vertx.core.Handler;
 import io.vertx.core.Vertx;
-import io.vertx.core.http.HttpServerRequest;
-import io.vertx.core.json.Json;
-import io.vertx.core.json.JsonObject;
-import io.vertx.ext.jdbc.JDBCClient;
-import io.vertx.ext.sql.ResultSet;
-import io.vertx.ext.sql.SQLConnection;
-import io.vertx.ext.web.Router;
-import io.vertx.ext.web.RoutingContext;
 
 /**
  * Servlet implementation class VertxServlet
